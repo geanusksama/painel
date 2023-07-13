@@ -1,0 +1,156 @@
+header {
+
+    height: 80px;
+    position: fixed;
+    background-color: #222222;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+
+}
+
+.teste>img {
+    position: absolute;
+    display: none;
+    right: 15px;
+    top: 5%;
+}
+
+
+
+@media screen and (max-width:800px) {
+
+    header {
+        display: none;
+    }
+
+    .teste>img {
+        display: inline-block;
+    }
+
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container ul li {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+}
+
+header .container ul li:last-child {
+    margin-right: none;
+}
+
+.mes,
+.envase,
+.manutencao,
+.sair {
+    width: 120px;
+    padding: 20px 0;
+    text-align: center;
+    cursor: pointer;
+    font-size: small;
+}
+
+.mes {
+    background-color: #459E32;
+}
+
+.envase {
+    background-color: #E2542C;
+}
+
+.manutencao {
+    background-color: #5588BF;
+}
+
+.sair {
+    background-color: #3f3f3f;
+}
+
+.menu-geral nav {
+    background-color: #1d1d1d;
+    display: flex;
+}
+
+.menu-geral {
+    left: -110%;
+    display: none;
+}
+
+.mostra {
+    left: 1px;
+    display: none;
+}
+
+.menuamburger {
+    position: absolute;
+    z-index: 999;
+    right: 15px;
+    top: 7px;
+
+
+}
+
+@media screen and (min-width: 800px) {
+    .menu-geral {
+        display: none;
+    }
+
+    .menuamburger {
+        display: none;
+    }
+}
+
+/* Estilos para telas menores que 800 pixels */
+@media screen and (max-width: 800px) {
+    .menu-geral {
+        display: block;
+        position: absolute;
+        width: 98%;
+        top: 0;
+
+    }
+
+    body {
+        padding-top: 5px;
+    }
+
+    .menuamburger {
+        display: block;
+    }
+}
+
+.menu-geral nav ul {
+
+    text-align: center;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 2px;
+    font-size: small;
+    margin-bottom: 5px;
+    left: 0;
+    position: absolute;
+}
+
+.menu-geral nav ul li {
+    margin: auto;
+    list-style: none;
+    border-bottom: 1px solid #414141;
+    padding: 10px;
+    background-color: #232323;
+}

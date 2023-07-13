@@ -1,0 +1,38 @@
+[
+   {
+      "id": 1,
+      "status": "1",
+      "sigla": "PTR"
+   },
+   {
+      "id": 7,
+      "status": "1",
+      "sigla": "BTV"
+   },
+   {
+      "id": 2,
+      "status": "1",
+      "sigla": "RDN"
+   },
+   {
+      "id": 3,
+      "status": "1",
+      "sigla": "ALG"
+   },
+   {
+      "id": 4,
+      "status": "3",
+      "sigla": "TRS"
+   },
+   {
+      "id": 5,
+      "status": "1",
+      "sigla": "UBR"
+   },
+   {
+      "id": 6,
+      "status": "2",
+      "sigla": "AM"
+   }
+  
+]

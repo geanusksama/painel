@@ -1,0 +1,18 @@
+.fabricas {
+   display: flex;
+    padding: 20px;
+    max-width: 1140px;
+    margin: auto;
+
+}
+
+.fabricas .nome-fabricas {
+    background-color: #2aa95b;
+    padding: 30px;
+    margin-right: 5px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 10px rgba(29, 29, 29, 0.5);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
